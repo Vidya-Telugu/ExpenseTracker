@@ -1,0 +1,31 @@
+body {
+    background-color: #f8f9fa;
+}
+
+h1, h2 {
+    font-weight: 700;
+    color: #343a40;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn {
+    margin: 0 8px; /* Increased margin for better spacing */
+}
+
+#expense-form input, #expense-form select {
+    border-radius: 0;
+    height: calc(1.5em + 0.75rem + 2px);
+}
+
+.w-100 {
+    width: 50% !important; /* Adjust the width of the button */
+    margin: 0 auto !important; /* Center the button horizontally */
+}
